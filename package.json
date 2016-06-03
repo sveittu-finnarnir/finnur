@@ -21,6 +21,7 @@
     "body-parser": "^1.15.1",
     "cookie-parser": "^1.4.3",
     "express": "^4.13.4",
+    "lodash": "^4.13.1",
     "path": "^0.12.7"
   }
 }
