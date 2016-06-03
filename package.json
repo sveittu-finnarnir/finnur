@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/sveittu-finnarnir/finnur/issues"
   },
-  "homepage": "https://github.com/sveittu-finnarnir/finnur#readme"
+  "homepage": "https://github.com/sveittu-finnarnir/finnur#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "path": "^0.12.7",
+    "node-oz-helpers": "ozinc/node-oz-helpers"
+  }
 }
