@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cat payload.json | sed "s/CONTENT/$1/" | curl -X POST -H "Content-type: application/json" -d @- \
+    "http://localhost:3000/webhook"
