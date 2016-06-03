@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
 var app = require('../lib/app');
-var log = require('node-oz-helpers').getLogger();
 
 var server = app.listen(app.get('port'), function() {
-  log.info('express server listening on port ' + server.address().port);
+  console.log('express server listening on port ' + server.address().port);
 });
